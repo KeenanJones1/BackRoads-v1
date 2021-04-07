@@ -9,7 +9,10 @@ const Wrapper = styled.section`
  padding: 5rem 0;
  line-height: 1.5;
  
-
+ .title{
+  text-align: center;
+  margin-bottom: 4rem;
+ }
 
  .title h2{
   text-transform: uppercase;

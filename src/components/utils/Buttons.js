@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import {media} from './_media'
 import {colors, fonts, spacing, transition} from './_var'
 
 const HeroBtn = styled.button`
@@ -24,6 +23,10 @@ const HeroBtn = styled.button`
    background: transparent;
    color: white;
    border-color: white;
+  }
+
+  a{
+    color: white
   }
 `
 

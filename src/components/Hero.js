@@ -80,8 +80,8 @@ class Hero extends Component {
       <h1>Continue Exploring</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio officiis similique aliquam iusto, officia beatae?</p>
 
-      <HeroBtn href="#featured">
-        explore tours
+      <HeroBtn>
+        <a href="#featured">explore tours</a>
        </HeroBtn>
      </div>
     </div>

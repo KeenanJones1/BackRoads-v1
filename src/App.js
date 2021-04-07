@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header'
 import About from './components/About'
 import Services from './components/Services'
+import Tours from './components/Tours'
 import styled from 'styled-components'
 import {colors, fonts, spacing} from './components/utils/_var'
 
@@ -18,9 +19,10 @@ a{
 function App() {
   return (
     <Wrapper className="App">
-    <Header />
-    <About />
-    <Services />
+      <Header />
+      <About />
+      <Services />
+      <Tours />
     </Wrapper>
   );
 }
