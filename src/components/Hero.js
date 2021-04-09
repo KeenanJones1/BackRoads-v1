@@ -73,7 +73,7 @@ const Wrapper = styled.header`
 class Hero extends Component {
  render() {
   return (
-   <Wrapper className="hero">
+   <Wrapper className="hero" >
     <div className="overlay">
 
      <div className="hero-banner">

@@ -79,7 +79,7 @@ p {
 
 const About = () => {
  return (
-  <Wrapper>
+  <Wrapper id='about'>
     <SectionTitle className="title">
      <h2>About <span>us</span></h2>
     </SectionTitle>
