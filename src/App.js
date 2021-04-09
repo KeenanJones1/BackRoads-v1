@@ -5,6 +5,7 @@ import Services from './components/Services'
 import Tours from './components/Tours'
 import Contact from './components/Contact'
 import Gallery from './components/Gallery'
+import Footer from './components/Footer'
 
 import styled from 'styled-components'
 import {colors, fonts, spacing} from './components/utils/_var'
@@ -28,6 +29,7 @@ function App() {
       <Tours />
       <Contact />
       <Gallery />
+      <Footer />
     </Wrapper>
   );
 }
