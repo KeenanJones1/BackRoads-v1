@@ -9,18 +9,7 @@ const Wrapper = styled.section`
  padding: 5rem 0;
  line-height: 1.5;
  
- .title{
-  text-align: center;
-  margin-bottom: 4rem;
- }
 
- .title h2{
-  text-transform: uppercase;
- }
-
- .title span{
-  color: ${colors.$colorBg}
- }
 
  .center{
   width: 90vw;
@@ -35,7 +24,7 @@ const Wrapper = styled.section`
 
 h1,h2,h3,h4 {
   letter-spacing: ${spacing.$letter} ;
-  text-transform: capitalize;
+  text-transform: uppercase;
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }

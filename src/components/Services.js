@@ -15,7 +15,6 @@ const Wrapper = styled.section`
  .service{
   text-align: center;
   margin-bottom: 3rem;
-
  }
 
  .service-icon{
@@ -70,16 +69,13 @@ const Wrapper = styled.section`
    .service-title{
     margin-bottom: 0.5rem;
    }
-
   }
-
- 
 `
 
 const Services = () => {
  return (
   <Wrapper className='services' id='services'>
-   <SectionTitle className="title">
+   <SectionTitle>
     <h2>Our <span>Services</span></h2> 
    </SectionTitle>
 

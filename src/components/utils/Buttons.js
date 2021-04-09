@@ -26,7 +26,8 @@ const HeroBtn = styled.button`
   }
 
   a{
-    color: white
+    color: white;
+    text-decoration: none;
   }
 `
 
@@ -43,6 +44,16 @@ const Btn = styled.button`
   border: 2px solid transparent;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+  a {
+    text-decoration: none;
+    color: white
+  }
+
+  &:hover {
+  color: white;
+  background: ${colors.$colorBg};
+}
 `
 
 
