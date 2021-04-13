@@ -70,7 +70,55 @@ const Wrapper = styled.nav`
    transition: ${transition.$primary};
  }
 
- 
+ @media(min-width: 992px){
+   padding: 1rem 2rem;
+   /* hide toggle button */
+   .nav-toggle{
+     display: none;
+   }
+
+   .nav-center{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     /* flex-wrap: wrap; */
+   }
+
+   .nav-links{
+     height: auto;
+     display: flex;
+   }
+
+   .nav-header{
+     padding: 0 0;
+   }
+
+   .nav-link{
+     padding: 0 0;
+     margin-right: 0.7rem;
+   }
+
+   .nav-link:hover{
+     padding: 0;
+     color: ${colors.$colorBtn};
+     background: transparent;
+   }
+
+   .nav-icons{
+     display: flex;
+     list-style: none
+   }
+
+   .nav-icon{
+     margin-right: 0.7rem;
+     color: ${colors.$colorBg};
+     transition: ${transition.$primary};
+   }
+
+   .nav-icon:hover{
+     color:${colors.$colorBtn};
+   }
+ }
 `
 
 const Navbar = () => {
